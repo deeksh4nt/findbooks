@@ -1,2 +1,7 @@
 .venv
 __pycache__
+
+# Data Files
+output_data
+training_data
+cosine_matrix
