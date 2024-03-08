@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def root():
-  return "Provide ISBN value to get recommendations <br>Example <ul><li><a href=\"9780007136582\">/9780007136582 • The Lord of the Rings</a></li></ul>", 400
+  return "Provide ISBN value to get recommendations <br>Example <ul><li><a href=\"9780007136582\">/9780007136582</a> • The Lord of the Rings</li></ul>", 400
 
 @app.route('/<int:book>')
 def find_books(book):
